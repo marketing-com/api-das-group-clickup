@@ -1,0 +1,35 @@
+{
+    "name": "dasgroupinc/clickup",
+    "description": "ClickUp integration PHP Library",
+    "keywords": [     
+      "task"
+    ],
+    "homepage": "https://github.com/marketing-com/api-das-group-clickup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marketing.com IT",
+            "email": "carlos.gonzalez@marketing.com",
+            "homepage": "https://github.com/marketing-com/api-das-group-clickup"
+        },{
+        	"name": "Das Group Inc",
+            "email": "web@das-group.com",
+            "homepage": "https://github.com/marketing-com/api-das-group-clickup"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/marketing-com/api-das-group-clickup.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">= 7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "ClickUp\\": "src/"
+      }
+    }
+}
